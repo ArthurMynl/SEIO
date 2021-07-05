@@ -8,3 +8,5 @@
     <title>SEIO</title>
     <link href="assets/index_style.css" rel="stylesheet" type="text/css">
 </head>
+
+<?php // Juste pour le detecteur de langages automatique de GitHub ?>
