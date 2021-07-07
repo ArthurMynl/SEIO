@@ -8,7 +8,7 @@
 
 <body>
     <br><br>
-    <!-- creation de -->
+    <!-- creation du formulaire -->
     <form class="container" method="POST">
 
         <?php if(isset($errorMsg)){ echo '<p>'.$errorMsg.'</p>'; } ?>

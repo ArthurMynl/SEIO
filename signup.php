@@ -8,6 +8,7 @@
 
 <body> 
     <br><br>
+    <!-- creation du formulaire -->
     <form class="container" method="POST">
 
         <?php if(isset($errorMsg)){ echo '<p>'.$errorMsg.'</p>'; } // affichage des messages d'erreur ?>

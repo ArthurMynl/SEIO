@@ -4,7 +4,7 @@
 // Importer le head, la barre de navigation et connecter la base de données
 include 'includes/head.php'; 
 include 'includes/navbar.php';
-require 'actions/database.php';
+require('actions/database.php');
 
 // Récuperation des pseudos et des scores associés
 $getAllInfos = $bdd->prepare('SELECT pseudo, score FROM users');

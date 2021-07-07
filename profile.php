@@ -1,5 +1,6 @@
 <?php
 session_start();
+require('actions/users/securityAction.php')
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -7,7 +8,7 @@ session_start();
 // Importer le head, la barre de navigation et connecter la base de données
 include 'includes/head.php'; 
 include 'includes/navbar.php';
-require 'actions/database.php';
+require('actions/database.php');
 ?>
 <body>
     <br><br>
